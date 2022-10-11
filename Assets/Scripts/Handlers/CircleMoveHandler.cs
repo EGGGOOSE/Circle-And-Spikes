@@ -42,8 +42,7 @@ public class CircleMoveHandler : MonoBehaviour
     {
         if (movePositions.Count != 0)
         {
-
-
+            //Плавное перемещение до точки
             float distance = Vector2.Distance(transform.position, movePositions.Peek());
             if (isSlowDown)
             {
